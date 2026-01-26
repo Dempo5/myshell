@@ -93,7 +93,7 @@ static void history_print(void) {
     int start_index;
     int start_number;
 
-    // if we haven't filled the buffer yet, start at 0
+    // haven't filled the buffer yet, start at 0
     if (history_count < HISTORY_SIZE) {
         start_index = 0;
         start_number = 1;
